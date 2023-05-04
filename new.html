@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geometry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <svg id="mainBox"></svg>
+
+    <div class="navigation">
+        <h2>Computer Geometry Lab by Krymlov TTP-32</h2>
+        <input id="input" type="number" min="1000" max="100000" step="1000" placeholder="Enter number of dots">
+        <button id="gen">Generate Dots and draw polygon</button>
+        <button id="start">Start Algorithm</button>
+        <button id="print-dots">Show all Dots</button>
+        <button id="print-check">Show Dots to check</button>
+        <button id="print-inside">Show Dots which inside</button>
+        <span class="dots">Dots generated: <span id="dots">0</span></span>
+        <span class="dots">Dots to check: <span id="dotsToCheck">0</span></span>
+        <span class="dots">Dots inside polygon: <span id="dotsInside">0</span></span>
+        <span class="dots">Execution Time: <span id="time">0</span></span>
+        <button id="refresh">Refresh</button>
+    </div>
+
+</body>
+
+<script src="new.js"></script>
+
+</html>
